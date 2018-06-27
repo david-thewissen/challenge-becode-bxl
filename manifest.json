@@ -1,0 +1,18 @@
+{
+ "lang" : "fr",
+ "dir" : "ltr",
+ "name" : "La mif est aussi une webapp",
+ "short_name" : "maPWA",
+ "icons" :   [
+   {
+     "src" : "la-milf.png",
+     "sizes" : "192x192",
+     "type" : "image\/png"
+   }
+ ],
+ "theme_color" : "#DFDFDF",
+ "background_color" : "#1a1a1a",
+ "start_url" : "/",
+ "display" : "standalone",
+ "orientation" : "natural"
+}
