@@ -9,9 +9,10 @@
   <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
   <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/js/bootstrap.min.js" integrity="sha384-smHYKdLADwkXOn1EmN1qk/HfnUcbVRZyYmZ4qpPea6sjB/pTJ0euyQp0Mk8ck+5T" crossorigin="anonymous"></script>
   <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.13/css/all.css" integrity="sha384-DNOHZ68U8hZfKXOrtjWvjxusGo9WQnrNx2sqG0tfsghAvtVlRW3tvkXWZh58N9jp" crossorigin="anonymous">
+  <link href="https://fonts.googleapis.com/css?family=Josefin+Sans|Merriweather|Pacifico" rel="stylesheet">
   <link href="style.css" rel="stylesheet">
-  <link rel="icon" type="image/gif" href="la-milf.png" />
-  <title>La Milf (est bonne)</title>
+  <link rel="icon" type="image/gif" href="milfverre.png" />
+  <title>La Milf | bière liègeoise</title>
   <link rel= "manifest" href= "manifest.json">
   <script src="sw.js"></script>
 </head>
@@ -24,7 +25,7 @@
               </button>
               <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
                 <div class="navbar-nav">
-                  <a class="nav-item nav-link active" href="#accueil"> Acceuil <span class="sr-only">(current)</span></a>
+                  <a class="nav-item nav-link active" href="#accueil">Accueil <span class="sr-only">(current)</span></a>
                   <a class="nav-item nav-link" href="#amis">Bière d'amis</a>
                   <a class="nav-item nav-link" href="#caract"> Caractéristiques </a>
                   <a class="nav-item nav-link" href="#trouver">Où est la Milf</a>
@@ -36,21 +37,27 @@
 
 
   <div class="accueil" id="accueil">
-      <a href="#all_caracteristique"><button type="button" class="btn btn-secondary btn-lg button">Découvrez la Milf</button> </a>
+      <a href="#amis"><button type="button" class="btn btn-secondary btn-lg button">Découvrez la Milf</button> </a>
   </div>
 
   <div id="amis">
 
   </div>
   <div class="product" id="product">
-    <h2 class="card-title">Une bière d'amis</h2>
+    <h2 class="card-title">Une bière d'amis !</h2>
+    <h3>À partager <span class="modération">avec modération ...</h3>
+    <img class="little" src="milf-amis.jpg" alt="Une bière à partager">
       <div class="display">
-        <img src="les-dilfs.jpg" alt="">
+        <figure class="figure">
+          <img src="les-dilfs.jpg" alt="Les créateurs de la Milf" class="figure-img img-fluid rounded">
+          <figcaption class="figure-caption">Les créateurs de la Milf</figcaption>
+        </figure>
         <p>Bière brassée en Province de Liège de manière traditionnelle à base uniquement d'ingrédients 100 % naturels.
           Comme dans la vraie vie, La Milf vous séduit tant par son caractère que par sa légèreté (5,5° Vol/Alc).
           Désaltérante, son goût caractéristique s'offre en touches houblonnées, épicées et fruitées,
           qui vous laissent une belle et longue amertume en fin de bouche. Découvrez cette nouvelle sensation
-          "Made In Liège Forever", elle deviendra très vite votre favorite. En résumé, <strong>La Milf elle est bonne... </strong></p>
+          "Made In Liège Forever", elle deviendra très vite votre favorite.<br>
+           En résumé, <strong>La Milf elle est bonne... </strong></p>
       </div>
   </div>
 
@@ -138,14 +145,41 @@
      <textarea id="textarea_contact">Votre Message...</textarea>
      <button class="btn btn-secondary btn-lg" type="submit" id="button_envoyer"> ENVOYER </button>
   </div>
-  <footer>
-    <div class="social">
-      <a class="icon_RS" target="_blank" href="https://www.facebook.com/La.MILF.elle.est.bonne"><i class="fab fa-facebook-square fa-5x"> </i></a>
-      <a class="icon_RS" target="_blank" href="https://www.youtube.com/channel/UCiHdpNxmVIZVz5elG78u2-g"><i class="fab fa-youtube-square fa-5x"></i></a>
-      <a class="icon_RS" target="_blank" href="https://www.instagram.com/biere_la_milf/?hl=fr"><i class="fab fa-instagram fa-5x"></i></a>
-      <a  class="icon_RS" target="_blank" href="https://twitter.com/"><i class="fab fa-twitter-square fa-5x"></i></a>
-      <a class="icon_RS" target="_blank" href="#"><i class="fab fa-linkedin fa-5x"></i></a>
+  <!-- Footer -->
+	<section id="footer">
+		<div class="container">
+			<div class="row text-center text-xs-center text-sm-left text-md-left">
+				<div class="links">
+					<h5>La Milf</h5>
+					<ul class="list-unstyled quick-links">
+						<li><a  href="#accueil"><i class="fa fa-angle-double-right"></i>Accueil</a></li>
+						<li><a href="#amis"><i class="fa fa-angle-double-right"></i>Bière d'amis</a></li>
+						<li><a href="#caract"><i class="fa fa-angle-double-right"></i>Caractéristiques</a></li>
+						<li><a href="#trouver"><i class="fa fa-angle-double-right"></i>Où trouver la Milf?</a></li>
+						<li><a href="#contenu_contact"><i class="fa fa-angle-double-right"></i>Contact</a></li>
+					</ul>
+				</div>
+
+			</div>
+      <div class="row">
+      <div class="col-xs-12 col-sm-12 col-md-12 mt-2 mt-sm-5">
+        <ul class="list-unstyled list-inline social text-center">
+          <li class="list-inline-item"><a target="_blank" href="https://www.facebook.com/La.MILF.elle.est.bonne"><i class="fab fa-facebook-square"></i></a></li>
+          <li class="list-inline-item"><a target="_blank" href="https://www.youtube.com/channel/UCiHdpNxmVIZVz5elG78u2-g"><i class="fab fa-youtube-square"></i></a></li>
+          <li class="list-inline-item"><a target="_blank" href="https://www.instagram.com/biere_la_milf/?hl=fr"><i class="fab fa-instagram"></i></a></li>
+        </ul>
+      </div>
+      </hr>
     </div>
-  </footer>
+			<div class="row">
+				<div class="col-xs-12 col-sm-12 col-md-12 mt-2 mt-sm-2 text-center text-white">
+					<p>Bière spéciale brassée en Province de Liège de manière traditionnelle, à base uniquement d'ingrédients 100 % naturels, « la MILF » séduit tant par son caractère que par sa légèreté (5,5° Vol/Alc).</p>
+					<p class="h6">&copy All right Reversed.<a class="text-green ml-2" href="https://becode.org" target="_blank">BeCode.org</a></p>
+				</div>
+				</hr>
+			</div>
+		</div>
+	</section>
+	<!-- ./Footer -->
 </body>
 </html>
