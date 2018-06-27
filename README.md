@@ -17,3 +17,4 @@ Le but de l'exercice était d'apprendre à travailler avec quelqu'un que l'on ne
 ## Dificultées rencontrées
 
 Il a été difficile de travailler à deux sur un Onepage. Il n'étais pas facile de bien diviser les rôles et de garder une cohérence au niveau du design par exemple. Le temps n'a pas joué en notre faveur car nous avons du apprendre certain aspect technique sur le tas (comme la mise en place d'une webapp par exemple). La dernière difficultée rencontrée était le manque de personne impliquée dans le projet. Un de nos trois membre étant absent, nous avons du assumer le travail d'un trio à deux. 
+# laMilf
