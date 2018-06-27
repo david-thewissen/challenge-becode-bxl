@@ -6,7 +6,6 @@
 }
 
 .accueil{
-  top: 40px;
   background-image: url("bg-milf2.jpg");
   background-position:50% 50%;
   background-repeat:no-repeat;
@@ -19,11 +18,12 @@
 }
 #header_navbar{
   position: fixed;
-  z-index:2;
+  top: 0;
+  z-index:1;
   width: 100%;
 }
 .button{
-  margin-top: 20vh;
+  margin-top: 50vh;
 }
 
 .location{
@@ -118,6 +118,12 @@ h5{
 #button_envoyer {
 	margin-top:10px;
 }
+
+
+#caract, #amis, #trouver{
+  margin-bottom: 10vh;
+}
+
 /* ANIMATIONS */
 .vibrate-1 {
   margin-top: 10px;
@@ -203,22 +209,22 @@ h5{
     -webkit-transform: translateY(-100px);
             transform: translateY(-100px);
   }
-    
+
 }
 
 @media screen and (min-width: 200px) and (max-width: 740px) {
-    
+
     .display p{ max-width: 90%;
-                margin:0% 5%;	 
+                margin:0% 5%;
 }
     .display img{
 	            max-width: 95%;
                 max-height: auto;
-                margin:2.5% 2.5%; 
+                margin:2.5% 2.5%;
 }
     .icon_RS{font-size: 40%;
         }
-    
+
     .social{display: flex;
             align-items: center;}
     #contenu_contact input{
@@ -231,5 +237,5 @@ h5{
 	width:90%;
     margin-bottom: 40px;
 }
-    
+
 }
