@@ -15,12 +15,6 @@
   <title>La Milf | bière liègeoise</title>
   <link rel= "manifest" href= "manifest.json">
   <script src="sw.js"></script>
-<script src="upup.min.js"></script>
- <script>
-    UpUp.start({
-      'content': '<html><body><h1>Top Hotels in Rome</h1><p>Villa Domus</p><p>Hotel Trivelli</p></body></html>'
-    });
-  </script>
 </head>
 <body>
   <header id="header_navbar">
@@ -51,7 +45,7 @@
   </div>
   <div class="product" id="product">
     <h2 class="card-title">Une bière d'amis !</h2>
-    <h3>À partager <span class="modération">avec modération ...</h3>
+      <h3>À partager <span class="modération">avec modération ...</span></h3>
     <img class="little" src="milf-amis.jpg" alt="Une bière à partager">
       <div class="display">
         <figure class="figure">
@@ -175,17 +169,23 @@
           <li class="list-inline-item"><a target="_blank" href="https://www.instagram.com/biere_la_milf/?hl=fr"><i class="fab fa-instagram"></i></a></li>
         </ul>
       </div>
-      </hr>
+      <hr>
     </div>
 			<div class="row">
 				<div class="col-xs-12 col-sm-12 col-md-12 mt-2 mt-sm-2 text-center text-white">
 					<p>Bière spéciale brassée en Province de Liège de manière traditionnelle, à base uniquement d'ingrédients 100 % naturels, « la MILF » séduit tant par son caractère que par sa légèreté (5,5° Vol/Alc).</p>
-					<p class="h6">&copy All right Reversed.<a class="text-green ml-2" href="https://becode.org" target="_blank">BeCode.org</a></p>
+					<p class="h6"> &copy All right Reversed.<a class="text-green ml-2" href="https://becode.org" target="_blank">BeCode.org</a></p>
 				</div>
-				</hr>
+				<hr>
 			</div>
-		</div>
+        </div>
 	</section>
 	<!-- ./Footer -->
+	  <script src="/upup.min.js"></script>
+  <script>
+    UpUp.start({
+      'content': '<html><body><h1>Top Hotels in Rome</h1><p>Villa Domus</p><p>Hotel Trivelli</p></body></html>'
+    });
+  </script>
 </body>
 </html>
